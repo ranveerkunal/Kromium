@@ -1,0 +1,8 @@
+project (kromium)
+find_package(KDE4 REQUIRED)
+include (KDE4Defaults)
+include_directories(${KDE4_INCLUDES})
+set(kromium_SRCS main.cc)
+kde4_add_executable(kromium ${kromium_SRCS})
+target_link_libraries(kromium ${KDE4_KDEUI_LIBS})
+install(TARGETS kromium  ${INSTALL_TARGETS_DEFAULT_ARGS})
