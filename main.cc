@@ -1,9 +1,5 @@
-/*
- * main.cc
- *
- *  Created on: 17 Jun, 2009
- *      Author: ranveer
- */
+// main.cc: 17 Jun, 2009
+// author: Ranveer Kunal (ranveerkunal@gmail.com)
 
 #include <KApplication>
 #include <KAboutData>
