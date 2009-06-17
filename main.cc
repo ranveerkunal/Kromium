@@ -2,7 +2,7 @@
  * main.cc
  *
  *  Created on: 17 Jun, 2009
- *      Author: mojo
+ *      Author: ranveer
  */
 
 #include <KApplication>
